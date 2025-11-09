@@ -1,0 +1,68 @@
+﻿body {
+    background-color: skyblue;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #3b2f2f;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    height: 100vh;
+    padding: 40px;
+}
+
+.main-area {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+    .main-area img {
+        width: 200px;
+        cursor: pointer;
+        transition: transform 0.1s;
+    }
+
+        .main-area img:active {
+            transform: scale(0.9);
+        }
+
+.shop {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    width: 200px;
+}
+
+    .shop h2 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+.upgrade {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #a0522d;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background: #ffe4b5;
+    transition: background 0.2s;
+}
+
+    .upgrade:hover {
+        background: #ffdead;
+    }
+
+    .upgrade img {
+        width: 40px;
+        height: 40px;
+    }
